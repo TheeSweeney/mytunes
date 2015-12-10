@@ -1,0 +1,22 @@
+body {
+  background-image: url("http://thatgrapejuice.net/wp-content/uploads/2012/08/Aaliyah-TGJ.jpg");
+  background-size: 100%;
+  font-family: 'Space Age'
+}
+
+td {
+  font-size: 150%;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black
+}
+
+th{
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white
+}
+
+@font-face {
+font-family: 'Space Age';
+font-style: normal;
+font-weight: normal;
+src: local('Space Age'), url('space age.woff') format('woff');
+}

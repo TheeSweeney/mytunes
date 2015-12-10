@@ -21,7 +21,7 @@ var AppModel = Backbone.Model.extend({
       if(this.get('songQueue').length === 0){ 
         this.set('currentSong', song);
       }  
-      this.get('songQueue').add(song);
+      this.get('songQueue').add(song, {merge: true});
     }, this);
 
     params.library.on('dequeue', function(song){
