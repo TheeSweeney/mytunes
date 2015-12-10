@@ -5,6 +5,7 @@ var SongQueueView = Backbone.View.extend({
 
   initialize: function() {
     this.render();
+    //update does not work
     this.collection.on('all', function(){
       this.render();
     }, this)
